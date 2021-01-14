@@ -12,10 +12,9 @@ namespace TaxasApi.Controllers
     public class TaxaJurosController : Controller
     {
         /// <summary>
-        /// GET: RetornaJuros diretamente de 0.01
-        /// http://localhost:62372/RetornaJuros/taxaJuros
+        /// GET: Retorna Juros diretamente de 0.01
         /// </summary>
-        /// <returns>(decimal) fixed 0.01</returns>
+        /// <returns>(decimal) 0.01</returns>
         [HttpGet]
         [Route("taxaJuros")]
         public async Task<IActionResult> GetJuros()

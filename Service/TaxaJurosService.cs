@@ -6,9 +6,10 @@ namespace Service
 {
     public class TaxaJurosService
     {
-        public async Task<decimal> RetornaTaxaJuros()
+        public async Task<TaxaJuros> RetornaTaxaJuros()
         {
-            return new TaxaJuros().TaxaDeJuros;
+            TaxaJuros tx = new TaxaJuros { TaxaDeJuros = 0.01m };
+            return tx;
         }
     }
 }
