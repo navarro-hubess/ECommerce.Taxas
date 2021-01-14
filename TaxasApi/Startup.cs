@@ -33,8 +33,8 @@ namespace TaxasApi
                     c.SwaggerDoc("v1", new OpenApiInfo
                     {
                         Version = "v1",
-                        Title = "API - taxa de Juros",
-                        Description = "Teste Softplan - API1",
+                        Title = "API para retorno da taxa de Juros",
+                        Description = "Teste Softplan",
                         Contact = new OpenApiContact
                         {
                             Name = "Fabio Navarro",
@@ -58,7 +58,7 @@ namespace TaxasApi
             app.UseSwaggerUI(c =>
             {
                 c.RoutePrefix = "swagger";
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api - retorno taxa de juros");
             });
 
             if (env.IsDevelopment())
