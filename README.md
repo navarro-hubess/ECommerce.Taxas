@@ -3,12 +3,15 @@ Projeto em ASP.NET Core.
 
 ##Conceitos, Frameworks e tecnologias utilizadas:
 > Documentação das Apis com Swagger
+> Utilização de GIT com 2 Branchs 
+>> Master e Homolog
 > Injeção de Dependência
 > Log usando Serilog 
-> Testes de Unidade e de Integração (Projeto Ecommerce => https://github.com/navarro-hubess/ECommerce)
-> Para o Cálculo do valorFinal de Juros foi usada a biblioteca https://www.nuget.org/packages/DecimalMath.DecimalEx/ para que fosse possível manter a precisão em decimal, já que a biblioteca original Microsoft Math.Pow somente aceita double.
+(Projeto Ecommerce => https://github.com/navarro-hubess/ECommerce)
+> Testes de Unidade e de Integração 
 > Resiliência com Polly
 >> Foi adicionada uma política de Retry no projeto (ECommerce - https://github.com/navarro-hubess/ECommerce)
+> Para o Cálculo do valorFinal de Juros foi usada a biblioteca https://www.nuget.org/packages/DecimalMath.DecimalEx/ para que fosse possível manter a precisão em decimal, já que a biblioteca original Microsoft Math.Pow somente aceita double.
 
 ## Get Started
 >Para executar localmente:
