@@ -1,10 +1,12 @@
 # ECommerce.Taxas
-Projeto em ASP.NET Core.
+- Projeto com API para fornecer ao projeto (https://github.com/navarro-hubess/ECommerce) a Taxa de Juros.
+ 
 
 ## Conceitos, Frameworks e tecnologias utilizadas:
+- em ASP.NET Core, C#, Clean Code
 - Documentação das Apis com Swagger
-- Utilização de GIT com 2 Branchs 
-  Master e Homolog
+1. Utilização de GIT com 2 Branchs 
+  - Master e Homolog
 - Injeção de Dependência
 - Log usando Serilog 
 (Projeto Ecommerce => https://github.com/navarro-hubess/ECommerce)
