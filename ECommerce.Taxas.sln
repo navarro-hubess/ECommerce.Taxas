@@ -9,11 +9,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ecommerce.Taxas.Service", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ecommerce.Taxas.Domain", "Ecommerce.Taxas.Domain", "{A8D1FBFB-5D7A-430C-8A08-6752D998BB59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxasApi", "TaxasApi\TaxasApi.csproj", "{DE801C18-EAF7-4475-B0CD-7BEBAA2A0926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxasApi", "TaxasApi\TaxasApi.csproj", "{DE801C18-EAF7-4475-B0CD-7BEBAA2A0926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{D876F781-2712-422C-AD4E-B000E8CCB15C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{D876F781-2712-422C-AD4E-B000E8CCB15C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F6326F35-D384-4721-81B0-BBA3891AA629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{F6326F35-D384-4721-81B0-BBA3891AA629}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B750E6B-D7BA-44FD-AEE4-F22F7E08506E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
