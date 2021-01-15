@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaxasApi</name>
+    </assembly>
+    <members>
+        <member name="M:TaxasApi.Controllers.TaxaJurosController.GetJuros">
+            <summary>
+            GET: Retorna Juros diretamente de 0.01
+            </summary>
+            <returns>(decimal) 0.01</returns>
+        </member>
+    </members>
+</doc>
